@@ -1,5 +1,7 @@
-The **OverWorked** apehex lets you generate patterns of book folding.
+The **OverWorked** apehex lets you generate patterns of book art.
 These can then be used to create a 3d shape close to a sculpture by folding the pages.
+
+# Features
 
 # Installation
 
