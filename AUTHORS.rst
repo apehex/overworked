@@ -1,12 +1,13 @@
-Overworked is written and maintained by apehex and
-well no one else !
+=======
+Credits
+=======
 
-Keepers of the Four Crystals
-````````````````````````````
+Development Lead
+----------------
 
-- apehex <apehex@protonmail.com> `@apehex <https://github.com/apehex>`_, Keeper of the Master Crystal.
+* apehex <apehex@protonmail.com> `@apehex <https://github.com/apehex>`_
 
 Patches and Suggestions
-```````````````````````
+-----------------------
 
-- Claire-Solène Barnezet
+* Claire-Solène Barnezet
