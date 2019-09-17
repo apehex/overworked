@@ -1,4 +1,4 @@
-* Overworked apehex version:
+* Overworked version:
 * Python version:
 * Operating System:
 
