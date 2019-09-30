@@ -9,7 +9,10 @@ import pytest
 import numpy as np
 from PIL import Image
 
-from overworked.folding import preprocess_image, slice_image
+from overworked._image_processing import (
+    preprocess_image)
+from overworked.folding import (
+    slice_image)
 
 #####################################################################
 # _
@@ -36,21 +39,6 @@ def test_content(response):
 IMAGE_PATHS = {
     'binary': [
         'tests/data/binary/github.png']}
-
-#####################################################################
-# PREPROCESSING
-#####################################################################
-
-def test_preprocess_binary_images():
-    for __path in IMAGE_PATHS['binary']:
-        with Image.open(__path) as __image:
-            preprocess_image(
-                image=__image,
-                invert=False).save(
-                fp=(
-                    '.processed'.join(os.path.splitext(__path))
-                    + '.jpg'),
-                format='JPEG')
 
 #####################################################################
 # SLICING
