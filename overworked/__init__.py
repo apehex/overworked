@@ -29,7 +29,7 @@ __email__ = 'apehex@protonmail.com'
 __version__ = '0.6.2'
 __title__ = 'overworked'
 __description__ = 'Generate blueprints to upcycle old items into art.'
-__url__ = 'http://github/apehex/overworked'
+__url__ = 'https://github/apehex/overworked'
 __license__ = 'MIT license'
 
 __all__ = [
